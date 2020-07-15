@@ -1,0 +1,2476 @@
+body{
+  background : #00151b;
+  background:url(../assets/imgs/Texture.png); 
+  
+ margin:0;
+ padding:0;
+
+}
+.languages{
+display:flex;
+position: absolute;
+margin:5px;
+top:0;
+left:0;
+}
+.languages > img{
+  margin:5px;
+  height:20px;
+}
+
+.dropdown-menu{
+  border-radius:0;
+  font-family: yalla;
+
+}
+
+.dropdown-item:hover{
+  color:white;
+  background:#012632;
+}
+.dropdown-menu{
+  margin-top: initial;
+}
+nav{
+  z-index: 5000;
+}
+
+.nav-link{
+  transition:0.3s all;
+}
+.display-4{
+display:flex;
+justify-content: center;
+}
+
+.twitterAndDiscord{
+  position:relative;
+  displaY:flex;
+  justify-content: space-between;
+  height:50%;
+  margin-top:10px;
+}
+.twitter{
+  width:60%;
+  height:100%;
+  position: relative;
+  overflow: hidden;
+}
+.discord{
+  height:100%;
+  width:39%;
+  position: relative;
+}
+a{
+color:inherit;
+
+}
+
+a:hover{
+  color:inherit;
+}
+
+@font-face {
+  font-family: 'yalla';
+  src: url(../assets/fonts/Square.ttf);
+
+}
+@font-face{
+  font-family: 'sflight';
+  src: url(../assets/fonts/SFLight.otf)
+}
+@font-face{
+  font-family: 'forced';
+  src: url(../assets/fonts/FORCED\ SQUARE.ttf)
+}
+.container-fluid{
+  margin:0;
+  padding:0;
+}
+
+.dropdown:hover .dropdown-menu{
+  display:block;
+}
+
+.topBar{
+width:100%;
+height:40px;
+display: flex;
+justify-content:space-around;
+align-items: center;
+}
+
+
+
+.sponsorsBar{
+  width:350px;
+}
+
+.socialBar{
+  width:350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.sponsorIcon{
+  margin-left: 10px;
+  margin-right: 10px;
+  height:25px;
+}
+.barIcon{
+  margin: 0 auto;
+  margin-left: 10px;
+  margin-right: 10px;
+
+
+}
+
+#navSmall{
+
+background:#012632;
+padding-left:150px;
+padding-right:150px;
+
+font-size:20px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  
+}
+
+.sticky + .content{
+  padding-top:60px;
+}
+
+.nav-item{
+padding-left:20px;
+}
+.navbar-dark .navbar-nav .nav-link{
+  color:#AF0C67;
+  color:white;
+  font-family:yalla;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+color:white;
+color:#AF0C67;
+}
+
+.articleImg{
+  
+  background:url(../assets/imgs/fb.png);
+  background-size:contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition:1s all;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 0.25rem; 
+  overflow: hidden;
+  z-index: -3;
+ 
+}
+
+.blackBG{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 0.25rem; 
+  overflow: hidden;
+  z-index: -4;
+}
+
+#bannerText{
+display:flex; 
+justify-content: center;
+align-items: center;
+height:100%;
+z-index:5;
+}
+.teams{
+  color:#AF0C67;
+  display: flex;
+  justify-content: space-between;
+ 
+}
+
+.teamContainer{
+  height:100%;
+  margin:0 auto;
+  width:100%;
+  
+
+}
+.advBanner{
+display:flex;
+justify-content: center;
+margin-top:10px;
+margin-bottom:10px;
+}
+
+.players{
+  margin-top:50px;
+  padding-top:15px;
+  padding-bottom:15px;
+  font-size:45px;
+  color:white;
+  background:#011d27;
+  border-radius:0.2em;
+  font-family: yalla;
+  width:100%;
+  margin-bottom:20px;
+  padding:10px;
+}
+img{
+  max-width:100%;
+max-height:100%;
+border-radius:2%;
+}
+
+.socialMedia{
+
+  height: auto;
+  
+}
+#sameLine{
+
+  width:100%;
+}
+
+.footer{
+  position: relative;
+  width:100%;
+  background:#012632;
+  height:350px;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  margin-top:30px;
+}
+
+.ftrS{
+  height:250px;
+  width:250px;
+  color:#07769b;
+  font-size:16px;
+ 
+}
+.ftrRemoved{
+  height:250px;
+  width:250px;
+  color:#07769b;
+  font-size:16px;
+ 
+}
+.ftrTitle{
+  color:#EC128B;
+  font-size:18px;
+  text-transform: uppercase;
+margin-bottom:20px;
+}
+
+
+
+
+.barIcon{
+  color:#024055;
+  font-size:25px;
+  margin-left:10px;
+  margin-right:10px;
+  transition:0.6s all;
+}
+
+.barIcon:hover{
+  color:#EC128B;
+}
+
+.ftrEnd{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+}
+
+.ftrBorder{
+  width:98%;
+  color:white;
+  display:flex;
+  justify-content: space-between;
+
+}
+
+
+.ftrIcon{
+  color:white;
+  font-size:15px;
+  margin-left:7px;
+  margin-right:7px;
+  transition:0.6s all;
+}
+
+.ftrIcon:hover{
+  color:#EC128B;
+}
+
+ul {
+  list-style-type: none;
+  
+}
+
+
+#hsCard{
+  background:url(../assets/imgs/HSBACK.jpg)80%; 
+  background-size:cover;
+  transition:1s all;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+
+  
+}
+.teamCard:hover #hsCard{
+opacity:0.1;
+transform: scale(1.3);
+}
+  #test{
+    width:100%;
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  #view{
+    color:#EC128B;
+    background:#012632;
+    height:100%;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    font-size:40px;
+    font-family: yalla;
+  }
+
+  #view > div{
+    margin:5px;
+  }
+
+  #r6Card{
+    background:url(../assets/imgs/Tom_clancys_rainbow_six_siege-wallpaper-1366x768.jpg)center;
+    background-size:cover;
+    transition:1s all;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+    border-radius: 0.25rem; 
+    overflow: hidden;
+
+  }
+
+  .teamCard:hover #r6Card{
+    opacity:0.1;
+    transform: scale(1.3);
+    }
+
+    .teamCard:hover #dbzCard{
+      opacity:0.1;
+      transform: scale(1.3);
+      }
+.yallaIcon{
+  height:30px;
+}
+    #ww2Card{
+      background:url(../assets/imgs/Call-of-Duty-Black-Ops-4.jpg) 50%;
+      background-size:cover;
+      transition:1s all;
+      position: absolute;
+      z-index: 1;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      opacity: 1;
+      width: 100%;
+      height: 100%;
+      border-radius: 0.25rem; 
+      overflow: hidden;
+    }
+
+    .teamCard:hover #ww2Card{
+      opacity:0.1;
+      transform: scale(1.3);
+      }
+  .teamCard{
+    background : #00151b;
+  }
+
+  #navYalla{
+    height:80px;
+      }
+
+      #navYallaNew{
+        height:0px;
+      }
+
+
+  .card{
+    height:600px;
+    overflow: hidden;
+ }
+.youtube{
+  width:100%;
+  height:630px;
+}
+.cpr{
+  margin-right:150px;
+ 
+}
+
+.teamCard:hover #fortniteCard{
+  opacity:0.1;
+  transform: scale(1.3);
+  }
+
+
+  .ftrNavigate{
+    margin-top:5px;
+    margin-bottom:5px;
+  }
+
+
+@media(max-width:768px) {
+.socialMediaContainer{
+  padding-top:150px;
+}
+.socialMediaPhone{
+  flex-direction: column;
+}
+
+.twitterArticle{
+  width:100% !important;
+  height:80% !important;
+  margin:5px;
+}
+
+.discordArticle{
+  width:100% !important;
+  height:80% !important;
+  margin:5px;
+
+}
+
+.facebookArticle{
+    width:100% !important;
+    height:80% !important;
+    margin:5px;
+
+  
+}
+  #middleBanner{
+    height:550px !important;
+  }
+.playerCard{
+  height:300px !important;
+}
+.playerELogo{
+  height:35px !important;
+}
+.slide {
+  font-size:20px !important;
+}
+
+.moreDets{
+  font-size:20px !important;
+}
+
+#navSmall{
+padding-left:30px;
+padding-right:30px;
+
+}
+  .articleBox{
+    height:300px !important;
+    width:300px !important;
+    margin-top:5px;
+    margin-bottom:5px;
+  }
+.picSlider{
+  height:20% !important;
+}
+.videoBackground > iframe{
+  width:0;
+  height:0;
+}
+.latestArticles{
+  flex-direction: column !important;
+  
+}
+  .sponsorCardGroup{
+    flex-direction: column !important;
+   
+  }
+.sponsorImg > img{
+margin:0 auto;
+}
+  .sponsorCard{
+    width:75% !important;
+    margin:0 auto !important;
+    margin:10px;
+  }
+ 
+  .teams2{
+
+    flex-flow:nowrap !important ;
+    flex-direction: column !important;
+    height:800px !important;
+    
+  
+  }
+
+.ftrImg{
+  width:0;
+
+}
+.ftrRemoved{
+  width:0;
+  height:0;
+}
+
+.ftrS{
+  margin:10px;
+}
+  .teamCard{
+    width:100% !important;
+    margin:10px !important;
+  }
+  .players{
+    font-size: 20px;
+  }
+  .ftrS{
+    font-size: 14px;
+  }
+  .ftrTitle{
+    font-size:16px;
+  }
+  .sponsorIcon{
+    height:14px;
+  }
+  .yallaIcon{
+    width:0;
+    height:0;
+  }
+#navYalla{
+  height:40px;
+}
+#navYallaNew{
+  height:40px;
+}
+.socialBar{
+width:200px;
+
+}
+.barIcon{
+  font-size:15px;
+}
+
+.card{
+  height:400px;
+  margin:10px;
+}
+.card-deck{
+display:block;
+
+}
+
+
+}
+
+@media(max-width:576px){
+  #r6Banner{
+    height:625px !important;
+  }
+  .twitter{
+    width:100%;
+  }
+
+  .discord{
+    height:0;
+    width:0;
+  }
+  .youtube{
+ width:100%;
+  height:400px;
+  }
+  .ftrS{
+   font-size: 12px;
+ }
+ .ftrTitle{
+   font-size:14px;
+ }
+.cpr{
+  font-size:12px;
+  display: flex;
+  align-items: center;
+}
+
+
+}
+
+/* TEAMS CSS */
+
+#middleBanner{
+background:none;
+ position:relative; 
+ height:400px;
+ display:flex;
+  flex-direction: column;
+align-items: center;
+position:relative;
+}
+
+#r6Banner{
+
+    background:none;
+     position:relative; 
+     height:400px;
+     display:flex;
+      flex-direction: column;
+    align-items: center;
+    position:relative;
+
+}
+
+#streamBanner{
+
+  background:none;
+   position:relative; 
+   height:400px;
+   display:flex;
+    flex-direction: column;
+  align-items: center;
+  position:relative;
+
+}
+
+.bannerNames{
+  width:100%;
+position:relative;
+display:flex;
+justify-content: space-around;
+flex-flow: wrap;
+
+}
+
+.playerName{
+display:flex;
+flex-direction: column;
+align-items: center;
+font-size: 24px;
+color:white;
+font-family: yalla;
+margin-top:30px;
+}
+
+.playerName > p{
+  margin-top:-15px;
+}
+.playerBox{
+  margin-top:15px;
+
+
+}
+.playerAvatar{
+  height:90px;
+  width:90px;
+  position: relative;
+  border:2px solid white;
+  border-radius:0.2em;
+margin:0 auto;
+}
+
+.playerAvatar > img{
+  position: absolute;;
+bottom:0;
+}
+.playerName2{
+  margin:2px;
+  text-align: center;
+  color:white;
+  font-family: yalla;
+
+}
+
+#hsBanner{
+  height:500px;
+}
+
+#hsTeam {
+  background:url(../assets/imgs/HSBACK.jpg) 50%;
+  background-size:cover;
+  background-position:50% 55%;
+  background-repeat:no-repeat;
+  transition:1s all;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  overflow: hidden;
+  opacity:0.3;
+}
+
+#dbzTeam {
+  background:url(../assets/imgs/dbz.jpg) 50%;
+  background-size:cover;
+  background-position:50% 55%;
+  background-repeat:no-repeat;
+  transition:1s all;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  overflow: hidden;
+  opacity:0.3;
+}
+#codTeam {
+  background:url(../assets/imgs/Call-of-Duty-Black-Ops-4.jpg) 50%;
+  background-size:cover;
+    background-position:50% 55%;
+  background-repeat:no-repeat;
+  transition:1s all;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  overflow: hidden;
+  opacity:0.3;
+}
+#r6Team {
+  background:url(../assets/imgs/Tom_clancys_rainbow_six_siege-wallpaper-1366x768.jpg) 50%;
+  background-size:cover;
+  background-position:50% 55%;
+  background-repeat:no-repeat;
+
+  transition:1s all;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  overflow: hidden;
+  opacity:0.3;
+}
+
+#fortniteTeam {
+  background:url(../assets/imgs/thumb-1920-877849.jpg) 50%;
+  background-size:cover;
+  background-position:50% 60%;
+  background-repeat:no-repeat;
+  transition:1s all;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  overflow: hidden;
+  opacity:0.3;
+}
+
+#streamTeam {
+  background:url(../assets/imgs/Stream_Card.png) ;
+  background-size:cover;
+  background-position:50% 55%;
+  background-repeat:no-repeat;
+
+  transition:1s all;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  overflow: hidden;
+  opacity:0.3;
+}
+
+.playerCard{
+  background:
+  radial-gradient(black 15%, transparent 16%) 0 0,
+  radial-gradient(black 15%, transparent 16%) 8px 8px,
+  radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+  radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+  background-color:#011d27;
+  background-size:16px 16px;
+  height:400px;
+  display:flex !important;
+  flex-direction: row !important;
+  align-items: center;
+  color:#EC128B;
+  transition: 0.5s all;
+}
+.playerSm{
+  z-index:1;
+}
+
+.playerIcon{
+  margin-left: 15px;
+  font-size:25px;
+  margin-bottom:10px;
+
+}
+.playerIcon:hover{
+  color:White;
+}
+.quote{
+width:55%;
+}
+.desc{
+
+  height:100%;
+  width:40%;
+  font-size:32px;
+  display:Flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: 1s all;
+  
+  
+}
+
+.picture{
+  height:100%;
+  width:60%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.playerELogo{
+  margin:10px;
+  margin-top:15px;
+  height:50px;
+}
+
+
+.flag{
+  position: absolute;
+  top:0;
+  right:0;
+  margin:10px;
+  margin-left:7px;
+  width:5%;
+}
+
+
+.slide{
+  color:white;
+  position:relative;
+height:30%;
+  transition: 1s all;
+  left:5%;
+  font-family: yalla;
+  
+}
+
+
+
+.moreDets{
+  color:white;
+  font-family: yalla;
+  position: absolute;
+  bottom:0;
+  height:65%;
+  left:2%;
+  transform: translate(-200px,0);
+  opacity:0;
+  transition-delay: 1s all;
+  transition:1s all;
+}
+
+
+.card:hover .slide{
+  opacity: 0;
+  transform: translate(-200px,0);
+}
+
+.playerCard:hover{
+  box-shadow: 0px 0px 25px 0px #EC128B;
+  border-radius: 0.25rem; 
+
+}
+
+.card:hover .moreDets{
+  opacity: 1;
+  transform: translate(0,0);
+}
+
+
+/* PARTNERS PAGE */
+
+.sponsorBanner{
+  position:relative;
+height:250px;
+width:100%;
+display:flex;
+justify-content: center;
+align-items: center;
+color:white;
+font-family: yalla;
+font-size:48px;
+
+}
+
+.sponsorCardGroup{
+  margin:0 auto;
+  width:100%;
+  display:flex;
+  justify-content: space-around;
+  margin-top:20px;
+  color:white;
+  background-size:contain;
+  font-family: sflight;
+  font-size:20px;
+  position:relative;
+  flex-flow: wrap;
+  
+
+}
+
+
+
+.sponsorCard{
+  width:34%;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.sponsorCardFake{
+  width:34%;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.sponsorImg{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  width:55%;
+
+
+  height:35%;
+
+}
+
+.sponsorAbout{
+  margin-top:15px;
+  margin-bottom:15px;
+  font-size:16px;
+  height:320px;
+  overflow: auto;
+}
+.sponsorFooter{
+  width: 100%;
+display: flex;
+justify-content: space-between;
+margin: 5px;
+}
+
+.sponsorWebsite{
+  font-size:15px;
+  margin:5px;
+  margin-right:10px;
+  margin-left:10px;
+  transition:0.4s all;
+}
+
+.sponsorWebsite:hover {
+  color:#EC128B;
+}
+.sponsorSM{
+  color:white;
+  font-size:15px;
+  margin:5px;
+  transition:0.4s all;
+}
+
+.sponsorSM:hover {
+  color:#EC128B;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+
+
+
+
+/* CONTACT US */
+
+.contactHeader{
+  position:relative;
+  overflow:hidden;
+  height:500px;
+  width:100%;
+
+}
+.videoBackground{
+  position:absolute;
+  top:-70px;
+  height:810px;
+width:100%;
+z-index:-2;
+}
+
+
+.videoOver{
+  float: left;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(1,38,50,0.5),rgba(1,38,50,0.8) 75%,#161d27 100%);
+  color:white;
+  font-family:yalla;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.videoOver > img{
+  height:60%;
+}
+
+.videoOver > h1{
+  margin:0 auto;
+  text-align:center;
+  margin-top:7px;
+  
+}
+.aboutUsBackground{
+  margin-top:5%;
+}
+.aboutUs{
+  color:White;
+  font-family: sflight;
+  width:87%;
+}
+
+.aboutTitle{
+  border-left: 4px solid #EC128B;
+  padding-left: 2rem;
+  margin-bottom: 2rem;
+  clear: both;
+  font-weight:200;
+  
+}
+.aboutTitle2{
+  border-left: 4px solid #EC128B;
+  padding-left: 2rem;
+  clear: both;
+  font-weight:200;
+  
+}
+
+.picSlider{
+  display:flex;
+justify-content: space-around;
+  width:100%;
+  margin-top:30px;
+  margin-bottom:30px;
+  height:40%;
+
+}
+
+.pic{
+  height:100%;
+  width:23%;
+}
+
+.pic > img{
+  border-radius: 0;
+}
+
+.emailClass{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width:300px;
+  height:100px;
+  background:#E9FAEC;
+  color:#024055;
+  font-size:24px;
+}
+
+
+/* OVER WRITING */
+
+
+      .container {
+
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto; }
+ 
+@media (min-width: 576px) {
+  .container {
+    max-width: 576px; } }
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px; } }
+@media (min-width: 992px) {
+  .container {
+    max-width: 992px; } }
+@media (min-width: 1300px) {
+  .container {
+    max-width: 1300px; } }
+
+
+/* TEST */
+
+.teams2{
+  margin:0 auto;
+  width:100%;
+  height:600px;
+  display:flex;
+flex-flow: wrap;
+  justify-content: space-around;
+  }
+
+.teamCard{
+  position:relative;
+  height:200px;
+  width:49%;
+  overflow: hidden;
+  margin:5px;
+
+
+}
+
+.fakeTCard{
+  background:none;
+}
+
+#r6Card{
+  border-radius:0;
+}
+
+#hsCard{
+  background-position: 40% 40%;
+}
+
+#ww2Card{
+  border-radius:0;
+}
+
+#fortniteCard{
+  background:url(../assets/imgs/thumb-1920-877849.jpg) center;
+  background-size:cover;
+  transition:1s all;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-position: 40% 10%;
+}
+
+#dbzCard{
+  background:url(../assets/imgs/dbz.jpg) center;
+  background-size:cover;
+  transition:1s all;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-position: 40% 60%;
+}
+
+
+#streamCard{
+  background:url(../assets/imgs/Stream_Card.png) center;
+  background-size:cover;
+  transition:1s all;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-position: 40% 50%;
+}
+
+
+.teamCard:hover #streamCard{
+  opacity:0.1;
+  transform: scale(1.3);
+  }
+/*ARTICLE CSS*/
+
+.articleSplitter{
+  position:relative;
+  background:red;
+  height:100%;
+  display:flex;
+  justify-content: space-around;
+  padding-top:40px;
+}
+
+
+
+.sideContainer{
+  background:purple;
+  height:300px;
+  width:20%;
+}
+.articleHeader{
+  position:relative;
+  overflow:hidden;
+  height:400px;
+  width:100%;
+
+}
+
+.articleTitle{
+  border-left: 4px solid #EC128B;
+  padding-left: 2rem;
+  margin-bottom: 0.7rem;
+  clear: both;
+  font-weight:200;
+}
+
+.inArticleDate{
+  font-style:italic;
+  font-size:14px;
+  margin-bottom: 1.5rem;
+  
+}
+.articleBackground{
+  position:absolute;
+  height:100%;
+width:100%;
+z-index:-2;
+background:url("../assets/imgs/fb.png");
+background-position: 50% 25%;
+background-size:cover;
+}
+
+.articleFortniteBackground{
+  position:absolute;
+  height:100%;
+width:100%;
+z-index:-2;
+background:url("../assets/imgs/ixkinHEw.png");
+background-position: 50% 17%;
+background-size:cover;
+
+}
+
+.articleGSABackground{
+  position:absolute;
+  height:100%;
+width:100%;
+z-index:-2;
+background:url("../assets/imgs/R6_Roster.png");
+background-position: 50% 14%;
+background-size:cover;
+
+}
+
+.articleROG1Background{
+  position:absolute;
+  height:100%;
+width:100%;
+z-index:-2;
+background:url("../assets/imgs/SCAR-II-WEb-banner-1920-x-1080px.jpg");
+background-position: 50% 14%;
+background-size:cover;
+
+}
+
+.articleLogiGamesconBackground{
+  position:absolute;
+  height:100%;
+width:100%;
+z-index:-2;
+background:url("../assets/imgs/logiGamescon.png");
+background-position: 50% 40%;
+background-size:cover;
+
+}
+
+
+.articleOverwatchBackground{
+  position:absolute;
+  height:100%;
+width:100%;
+z-index:-2;
+background:url("../assets/imgs/Overwatch_Team_Announcement.png");
+background-position: 50% 45%;
+background-size:cover;
+
+}
+
+.articleNewYearBackground{
+  position:absolute;
+  height:100%;
+width:100%;
+z-index:-2;
+background:url("../assets/imgs/newYearArticle.png");
+background-position: 50% 45%;
+background-size:cover;
+
+}
+
+.articleCoDBackground{
+  position:absolute;
+  height:100%;
+width:100%;
+z-index:-2;
+background:url("../assets/imgs/NoLogosHorizontal.png");
+background-position: 50% 65%;
+background-size:cover; 
+}
+
+.articleSeedBackground{
+  position:absolute;
+  height:100%;
+width:100%;
+z-index:-2;
+background:url("../assets/imgs/SeedFundingFACES.png");
+background-position: 50% 75%;
+background-size:cover; 
+}
+.articleMerchBackground{
+  position:absolute;
+  height:100%;
+width:100%;
+z-index:-2;
+background:url("../assets/imgs/merchImg.png");
+background-position: 50% 75%;
+background-size:cover; 
+}
+
+.logiGroupPhoto{
+  text-align:center;
+  border-radius:0;
+  margin-top:10px;
+  margin-bottom:20px;
+  height:40%;
+}
+
+.articleGSAPic{
+border-radius:0;
+margin:15px;
+}
+
+.socialMediaContainer{
+  margin-top:-150px;
+  width:100%;
+}
+
+
+.articleFooter{
+  padding-top:20px;
+  padding-bottom:20px;
+  margin-bottom:55px;
+  width:100%;
+  height:60%;
+  position:relative;
+  display: flex;
+  justify-content: center;
+
+}
+
+.articleContainer{
+  position: absolute;
+  height:100%;
+  display:flex;
+  width:90%;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.articleBox{
+  width:400px;
+  height: 400px;
+  position:relative;
+  border:2px solid #00151b;
+  cursor:pointer;
+}
+.latestImg1{
+  position:absolute;
+  background:url(../assets/imgs/SeedFundingFACES.png);
+  background-position:50%;
+  height:100%;
+  width:100%;
+  background-size: cover;
+}
+
+.latestImg2{
+  position:absolute;
+  background:url(../assets/imgs/NoLogosHorizontal.png);
+  background-position:50%;
+  height:100%;
+  width:100%;
+  background-size: cover;
+  
+}
+
+.latestImg3{
+  position:absolute;
+  background:url(../assets/imgs/merchImg.png) 50%;
+  background-position:50%;
+  height:100%;
+  width:100%;
+  background-size: cover;
+}
+
+
+.latestImg4{
+  position:absolute;
+  background:url(../assets/imgs/newYearArticle.png);
+  background-position:50%;
+  height:100%;
+  width:100%;
+  background-size: cover;
+}
+
+.latestArticles{
+  display:flex;
+  justify-content: space-between;
+  width:100%;
+  position:relative;
+}
+
+.articleOver{
+  float: left;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(1,38,50,0.5),rgba(1,38,50,0.8) 50%,#161d27 100%);
+  color:white;
+  font-family:yalla;
+  display:flex;
+align-items: flex-end;
+justify-content: flex-start;
+    font-size:28px;
+    opacity:0.8;
+  transition:0.8s all;
+}
+
+.articleBoxHeader{
+color:white;
+font-family: yalla;
+font-size: 24px;
+margin-bottom:15px;
+}
+
+.articleDate{
+  margin:5px;
+  position: absolute;
+  color:white;
+  opacity:1;
+  
+
+}
+/* ARTICLE INVENTORY */
+
+.articleInventory{
+  background:#00151b;
+  position:relative;
+  height:900px;
+  width:100%;
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+padding-top:100px;
+color: white;
+font-family: yalla;
+}
+
+.articles{
+  margin-top:30px;
+  display:flex;
+  flex-flow: wrap;
+}
+.article{
+  
+  width:400px;
+  height:150px;
+  position:relative;
+  margin:5px;
+}
+
+.adRedirect{
+  font-size:24px;
+  margin:10px;
+  font-family: yalla;
+  transition:0.5s all;
+}
+
+.adR1{
+  margin-left:5px;
+}
+.adRedirect:hover{
+  color:#EC128B;
+}
+
+@media(max-width:768px) {
+  .fakeTCard{
+    width:0;
+    height:0;
+  }
+  .articleOver{
+    font-size:20px;
+  }
+  .article{
+  
+    width:300px;
+    height:150px;
+    position:relative;
+    margin:5px;
+  }
+}
+.articleImgFA{
+  position:absolute;
+  background:url(../assets/imgs/ixkinHEw.png) 50%;
+
+  height:100%;
+  width:100%;
+  background-size: cover ;
+}
+
+.articleImgRA{
+  position:absolute;
+  background:url(../assets/imgs/fb.png) 50%;
+  height:100%;
+  width:100%;
+  background-size: cover ;
+}
+
+
+.articleImgRJ{
+  position:absolute;
+  background:url(../assets/imgs/R6_Roster.png) 50%;
+  background-position: 50% 20%;
+  height:100%;
+  width:100%;
+  background-size: cover ;
+}
+
+.articleImgROG1{
+  position:absolute;
+  background:url(../assets/imgs/SCAR-II-WEb-banner-1920-x-1080px.jpg) 50%;
+  background-position: 50% 20%;
+  height:100%;
+  width:100%;
+  background-size: cover ;
+}
+
+.articleImgLogi1{
+  position:absolute;
+  background:url(../assets/imgs/logiGamescon.png) 50%;
+  background-position: 50% 65%;
+  height:100%;
+  width:100%;
+  background-size: cover ;
+}
+
+.articleImgOW1{
+  position:absolute;
+  background:url(../assets/imgs/Overwatch_Team_Announcement.png) 50%;
+  background-position: 50% 28%;
+  height:100%;
+  width:100%;
+  background-size: cover ;
+}
+
+.articleImgNY{
+  position:absolute;
+  background:url(../assets/imgs/newYearArticle.png) 50%;
+  background-position: 50% 65%;
+  height:100%;
+  width:100%;
+  background-size: cover ;
+}
+
+.articleImgCOD{
+  position:absolute;
+  background:url(../assets/imgs/NoLogosHorizontal.png) 50%;
+  background-position: 50% 95%;
+  height:100%;
+  width:100%;
+  background-size: cover ;
+}
+
+.articleImgSeed{
+  position:absolute;
+  background:url(../assets/imgs/SeedFundingFACES.png) 50%;
+  background-position: 50% 50%;
+  height:100%;
+  width:100%;
+  background-size: cover ;
+}
+.articleImgStore{
+  position:absolute;
+  background:url(../assets/imgs/merchImg.png) 50%;
+  background-position: 50% 20%;
+  height:100%;
+  width:100%;
+  background-size: cover ;
+}
+.fakeCard{
+  background:none;
+  border:none;
+  width:0;
+  height:0;
+}
+
+.fakeCard:hover{
+  box-shadow:none;
+  border-radius:none; 
+
+}
+.article{
+  overflow: hidden;
+  position:relative;
+
+}
+
+
+
+.article:after {
+  content: "";
+  position: absolute;
+  top: -110%;
+  left: -350%;
+  width: 250%;
+  height: 260%;
+  opacity: 0;
+  transform: rotate(30deg);
+  transition:0.5s all;
+  background: rgba(255, 255, 255, 0.13);
+  background: linear-gradient(
+    to right, 
+    rgba(255, 255, 255, 0.13) 0%,
+    rgba(255, 255, 255, 0.13) 77%,
+    rgba(255, 255, 255, 0.5) 92%,
+    rgba(255, 255, 255, 0.0) 100%
+  );
+}
+
+/* Hover state - trigger effect */
+
+.article:hover:after {
+  opacity: 1;
+  top: -30%;
+  left: -30%;
+  transition-property: left, top, opacity;
+  transition-duration: 0.7s, 0.7s, 0.15s;
+  transition-timing-function: ease;
+}
+
+/* Active state */
+
+.article:active:after {
+  opacity: 0;
+}
+
+.article:hover .articleOver{
+opacity:1;
+}
+.articleBox{
+  overflow: hidden;
+  position:relative;
+
+}
+
+
+
+.articleBox:after {
+  content: "";
+  position: absolute;
+  top: -110%;
+  left: -350%;
+  width: 350%;
+  height: 250%;
+  opacity: 0;
+  transform: rotate(30deg);
+  transition:0.5s all;
+  background: rgba(255, 255, 255, 0.13);
+  background: linear-gradient(
+    to right, 
+    rgba(255, 255, 255, 0.13) 0%,
+    rgba(255, 255, 255, 0.13) 77%,
+    rgba(255, 255, 255, 0.5) 92%,
+    rgba(255, 255, 255, 0.0) 100%
+  );
+}
+
+/* Hover state - trigger effect */
+
+.articleBox:hover:after {
+  opacity: 1;
+  top: -30%;
+  left: -30%;
+  transition-property: left, top, opacity;
+  transition-duration: 0.7s, 0.7s, 0.15s;
+  transition-timing-function: ease;
+}
+
+/* Active state */
+
+.articleBox:active:after {
+  opacity: 0;
+}
+
+.articleBox:hover .articleOver{
+opacity:1;
+}
+
+.discordArticle{
+  width:33%;
+  height:60%;
+}
+
+.twitterArticle{
+  width:33%;
+  height:60%;
+}
+
+.facebookArticle{
+  width:33%;
+  height:60%;
+}
+
+
+
+.pinkH > li > a{
+  color:#EC128B;
+  transition:0.4s all;
+}
+
+.pinkH > li > a:hover{
+  color:rgb(255, 107, 188);
+}
+
+.pinkH >  a{
+  color:#EC128B;
+  transition:0.4s all;
+}
+
+.pinkH > a:hover{
+  color:rgb(255, 107, 188);
+}
+
+.businessHeader{
+display:flex;
+justify-content: center;
+margin-bottom: 50px;
+margin-top: 30px;
+}
+
+.businessContainer > img{
+
+  width:100%;
+  border-radius:0;
+
+}
+
+.businessContainer > h1 {
+  margin:40px;
+}
+
+.btn{
+  width:100%;
+  height:100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size:22px;
+  background:#011d27;
+  border-color:#01131a;
+}
+
+.btn:hover{
+  background:#012632;
+}
+
+.jobCard{
+  background:#011d27;
+  height:auto;
+  overflow: scroll;
+
+  padding-bottom:30px;}
+
+  @media(max-width:768px){
+    .btn{
+      font-size:10px;
+    }
+    .jobCard{
+      font-size:14px;
+      height:100%;
+ 
+    }
+  }
+  #shopContainer{
+    overflow: hidden;
+    position: relative;
+  
+  }
+  
+  #shop-frame {
+     border: 0;
+     height: 100%;
+     width: 100%;
+  }
+
+  #shop-frame{
+       min-width: 100%; 
+        width: 100px;
+        *width: 100%; 
+  }
+  
+
+  /* LOADER */
+  .lds-roller {
+    display: inline-block;
+    position: relative;
+    width: 64px;
+    height: 64px;
+  }
+  .lds-roller div {
+    animation: lds-roller 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    transform-origin: 32px 32px;
+  }
+  .lds-roller div:after {
+    content: " ";
+    display: block;
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #EC128B;
+    margin: -3px 0 0 -3px;
+  }
+  .lds-roller div:nth-child(1) {
+    animation-delay: -0.036s;
+  }
+  .lds-roller div:nth-child(1):after {
+    top: 50px;
+    left: 50px;
+  }
+  .lds-roller div:nth-child(2) {
+    animation-delay: -0.072s;
+  }
+  .lds-roller div:nth-child(2):after {
+    top: 54px;
+    left: 45px;
+  }
+  .lds-roller div:nth-child(3) {
+    animation-delay: -0.108s;
+  }
+  .lds-roller div:nth-child(3):after {
+    top: 57px;
+    left: 39px;
+  }
+  .lds-roller div:nth-child(4) {
+    animation-delay: -0.144s;
+  }
+  .lds-roller div:nth-child(4):after {
+    top: 58px;
+    left: 32px;
+  }
+  .lds-roller div:nth-child(5) {
+    animation-delay: -0.18s;
+  }
+  .lds-roller div:nth-child(5):after {
+    top: 57px;
+    left: 25px;
+  }
+  .lds-roller div:nth-child(6) {
+    animation-delay: -0.216s;
+  }
+  .lds-roller div:nth-child(6):after {
+    top: 54px;
+    left: 19px;
+  }
+  .lds-roller div:nth-child(7) {
+    animation-delay: -0.252s;
+  }
+  .lds-roller div:nth-child(7):after {
+    top: 50px;
+    left: 14px;
+  }
+  .lds-roller div:nth-child(8) {
+    animation-delay: -0.288s;
+  }
+  .lds-roller div:nth-child(8):after {
+    top: 45px;
+    left: 10px;
+  }
+  @keyframes lds-roller {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+
+  /* le HOMEPAGE */
+
+  .infographics{
+    display:flex;
+    justify-content: space-between;
+    margin:0 auto;
+    flex-wrap:wrap; 
+    width:95%;
+  }
+      
+  .info1{
+    color:White;
+    font-family: sflight;
+    width:70%;
+  }
+
+  .info2{
+    color:White;
+    font-family: sflight;
+    width:27%;
+  }
+
+  .info3{
+    color:White;
+    font-family: sflight;
+    width:31%;
+  }
+
+  
+
+  .infoTitle{
+    border-bottom: 12px solid #EC128B;
+    margin-bottom: 2rem;
+    padding-bottom: 15px;
+    display:flex; 
+    flex-direction: column;
+
+  }
+
+  .infoTitle > h1{
+    clear: both;
+    font-weight:500;
+    font-size:53px;
+    font-family: yalla;
+    
+  }
+ .infoTitle > h3{
+   font-family: yalla;
+   font-size:24px;
+   margin-top:-15px;
+   margin-bottom:-5px;
+ } 
+  
+ .countries >img{
+  height:20px;
+  margin:4px;
+ }
+ .sponsorIconWD{
+height:17px;
+ }
+ @media(max-width:768px) {
+  .info1{
+    width:100%;
+  }
+  .info2{
+    width:100%;
+  }
+  .info3{
+    width:100%;
+  }
+  .countries >img{
+    height:15px;
+    margin:4px;
+   }
+   .sponsorIcon{
+     height:16px;
+   }
+   .sponsorIconWD{
+     height:12px;
+   }
+
+   .cpr{
+     margin-right:0;
+     font-size:8px;
+    }
+   .ftrIcon{
+     font-size:8px;
+   }
+   .languages > img{
+     height:8px;
+   }
+
+   .newPartnersContainer{
+     margin-left:0  !important;
+   }
+   .partner{
+    display:flex !important;
+    flex-direction: column-reverse  !important;
+    justify-content: space-between  !important;
+    margin:0  !important;
+    margin-bottom:100px  !important;
+    margin-top:40px  !important;
+
+    
+  }
+  
+  .partnerBio{
+    width:100%  !important;
+    order:-2  !important;
+  
+  }
+  .partnerLogo{
+    width:100%  !important;
+    display: flex  !important;
+    justify-content: center;
+    align-items: center;
+    order:1  !important;
+    margin-bottom:10px;
+  }
+  .careerApply{
+    margin-top:15px;
+    width:100%;
+    margin:0 auto;
+    margin-bottom:0;
+    margin:0 !important;
+  
+  }
+  .careersTitle{
+    color:white;
+    font-family: yalla;
+    font-size:40px;
+  margin-bottom:0;
+  margin-left:30px !important; 
+  }
+  
+  .careerContainer{
+  width:100%;
+  margin:0 auto;
+  margin-top:0;
+  color:white;
+  font-family:sflight;
+  display:flex;
+  flex-direction: column;
+  margin:0 !important;
+
+  }
+  
+
+ }
+/* NEW PARTNERS */
+
+.newPartnersContainer{
+  margin-top:15px;
+  width:100%;
+  margin:0 auto;
+  margin:40px;
+
+}
+
+.ourPartners{
+  margin:40px;
+  color:white;
+  font-family: yalla;
+  font-size:40px;
+  margin-bottom:20px;
+}
+
+.partner{
+  display:flex;
+  justify-content: space-between;
+  margin:40px;
+  margin-bottom:100px;  
+  margin-top:40px;
+}
+
+.partnerBio{
+  width:60%;
+
+}
+.partnerLogo{
+  width:40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loglogo{
+  height:80px;
+}
+
+.roglogo{
+  height:260px;
+}
+
+.wdlogo{
+height:60px;}
+
+
+.partnerBio{
+  display:flex;
+  flex-direction: column;
+  color:white;
+  font-family:sflight;
+}
+
+.partnerName{
+  font-family:yalla;
+  font-size:36px;
+}
+
+.partner:not(:last-child) {
+  padding-bottom: 50px;
+  border-bottom: 4px solid #af0c67;
+  margin-bottom: 50px;
+}
+
+/* NEW TEAMS */
+
+.newTeamContainer{
+  width:98%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top:50px;
+}
+
+.newTeam{
+  width:280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom:40px;
+}
+
+.newTeamLogo{
+  display:flex;justify-content: center;align-items: center;
+  height:80px;
+
+}
+.newTeamLogo > img{
+
+}
+
+
+.playerList{
+margin:10px;
+}
+.playerNameNew{
+  font-size:16px;
+  font-family:forced;
+  color:white;
+  text-align:left;
+}
+
+
+.playerNameNew > a{
+  color:#EC128B;
+  transition:0.4s all;
+}
+
+.playerNameNew >  a:hover{
+  color:rgb(255, 107, 188);
+}
+
+/* NEW CAREERS */
+
+.careerApply{
+  margin-top:15px;
+  width:100%;
+  margin:0 auto;
+  margin:40px;
+  margin-bottom:0;  
+}
+.careersTitle{
+  margin:40px;
+  color:white;
+  font-family: yalla;
+  font-size:40px;
+margin-bottom:0;
+}
+
+.careerContainer{
+width:100%;
+margin:0 auto;
+margin:50px;
+margin-top:0;
+color:white;
+font-family:sflight;
+display:flex;
+flex-direction: column;
+
+}
+
+.jobOpp{
+margin:30px;
+}
+.jobTitle{
+display:flex;
+justify-content: center;
+flex-direction: column;
+margin-bottom:10px;
+border-bottom: 4px solid #af0c67;
+
+}
+.jobTitle > h2{
+  display:inline-block;
+  font-size:36px;
+  font-family: yalla;
+
+}
+.jobTitle > h4{
+  margin-top:-10px;
+  display:inline-block;
+  font-family: yalla;
+
+}
+
+.applyNow{
+  color:white;
+  font-size:32px;
+  font-family: forced;
+
+  background:#012632;
+  border-radius:3px;
+  padding:15px;
+  padding-left:20px;
+  padding-right:20px;
+  text-align:center;
+  width:max-content;
+  margin:0 auto;
+  margin-bottom:20px;
+  transition:0.5s all;
+  cursor: pointer;
+}
+
+.aboutUsTitle{
+
+  margin:40px;
+  margin-left:80px;
+  color:white;
+  font-family: yalla;
+  font-size:40px;
+  margin-bottom:20px;
+}
+
+.applyNow:hover{
+background:#af0c67;
+}
+.hoverButton{
+  width:20%;
+  background:#012632;font-family:yalla;margin:0 auto;
+transition: 0.5s all;
+  }
+.hoverButton:hover{
+  background:#af0c67;
+  }
+
+.newsletter{
+
+}
+
+/* EVENT */
+
+.eventContainer{
+  padding:20px;
+  color:white;
+  
+}
+
+.eventTitle{
+
+  font-family:yalla;
+  margin-left:30px;
+  margin-top:30px;
+}
+
+.eventDetails{
+  font-family:sflight;
+  margin-left:30px;
+}
+
+.registration{
+  background:#011820;
+
+  height:420px;
+  width:40%;
+  font-family: yalla;
+  border-radius:3px;
+  margin:0 auto;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.registerTitle{
+  font-size:24px;
+  padding-top:10px;
+}
+
+.eventField{
+  width:70%;border:0;margin:0 auto;background:#E9FAEC;border-radius:0;margin-bottom:40px;margin-top:20px;
+}
+
+.eventButton{
+  width:40%;
+  background:#012632;font-family:yalla;margin:0 auto;
+transition: 0.5s all;
+  }
+.eventButton:hover{
+  background:#af0c67;
+  }
+
+  .rules{
+    font-family: forced;
+  }
+  ::placeholder{
+    font-size:16px;
+  }
+
+  .prize{
+    height:300px;
+  
+  }
+
+  .eventImage{
+    height:100%;
+    bottom:60px;
+  }
+@media(max-width:768px) {
+
+  .registration{
+    width:300px;
+  }
+  .eventButton{
+    width:200px;
+  }
+
+  .eventImage{
+    height:0;
+    width:0;
+  }
+
+  .eventBackground{
+    background:url(../assets/imgs/YaLLa_DUBAI\ TO\ SHANGHAI.jpg);
+    background-repeat: no-repeat;
+    background-size:auto 60%;
+    background-position:50% 30%;
+
+    
+  }
+  ::placeholder{
+    font-size:14px;
+  }
+
+  .prize{
+    height:150px;
+  }
+
+  .prizeText{
+    font-size: 12px;
+  }
+
+  .articleImg2{
+    width:200px;margin:20px;border-radius:0;height:200px;
+  }
+}
+
+
+
+
+.eventLink > a{
+  color:#EC128B;
+  transition:0.4s all;
+}
+
+.eventLink >  a:hover{
+  color:rgb(255, 107, 188);
+}
+
+.articleImg2{
+  width:800px;margin:20px;border-radius:0;
+}

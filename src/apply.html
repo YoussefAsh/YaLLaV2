@@ -1,0 +1,964 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>YaLLa Application Form</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--===============================================================================================-->
+	<link rel="icon" type="image/png" href="images/icons/Icon.png" />
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/iconic/css/material-design-iconic-font.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/noui/nouislider.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<!--===============================================================================================-->
+</head>
+
+<body>
+
+
+	<div class="container-contact100">
+		<div class="wrap-contact100">
+			<form class="contact100-form validate-form" id="applyForm" action="applicationform.php" method="POST">
+				<span class="contact100-form-title">
+					YaLLa Apply!
+				</span>
+
+				<!-- BASIC INFORMATION -->
+
+				<div class="wrap-input100 validate-input bg1 rs1-wrap-input100"
+					data-validate="Please Type Your First Name">
+					<span class="label-input100">First Name</span>
+					<input class="input100" type="text" name="fname" id="fname" placeholder="Enter your First Name">
+				</div>
+
+				<div class="wrap-input100 validate-input bg1 rs1-wrap-input100"
+					data-validate="Please Type Your Last Name">
+					<span class="label-input100">Last Name</span>
+					<input class="input100" type="text" name="lname" id="lname" placeholder="Enter your Last Name">
+				</div>
+
+				<div class="wrap-input100 validate-input bg1 rs1-wrap-input100"
+					data-validate="Please Type Your In Game Name">
+					<span class="label-input100">In Game Name</span>
+					<input class="input100" type="text" name="ign" id="ign" placeholder="Enter your In Game Name">
+				</div>
+
+				<div class="wrap-input100 input100-select bg1 rs1-wrap-input100">
+					<span class="label-input100">Nationality</span>
+					<div>
+<select class="js-select2" name="nationality" id="nationality" required>
+
+	<option value="AF">Afghanistan</option>
+	<option value="AX">Åland Islands</option>
+	<option value="AL">Albania</option>
+	<option value="DZ">Algeria</option>
+	<option value="AS">American Samoa</option>
+	<option value="AD">Andorra</option>
+	<option value="AO">Angola</option>
+	<option value="AI">Anguilla</option>
+	<option value="AQ">Antarctica</option>
+	<option value="AG">Antigua and Barbuda</option>
+	<option value="AR">Argentina</option>
+	<option value="AM">Armenia</option>
+	<option value="AW">Aruba</option>
+	<option value="AU">Australia</option>
+	<option value="AT">Austria</option>
+	<option value="AZ">Azerbaijan</option>
+	<option value="BS">Bahamas</option>
+	<option value="BH">Bahrain</option>
+	<option value="BD">Bangladesh</option>
+	<option value="BB">Barbados</option>
+	<option value="BY">Belarus</option>
+	<option value="BE">Belgium</option>
+	<option value="BZ">Belize</option>
+	<option value="BJ">Benin</option>
+	<option value="BM">Bermuda</option>
+	<option value="BT">Bhutan</option>
+	<option value="BO">Bolivia, Plurinational State of</option>
+	<option value="BQ">Bonaire, Sint Eustatius and Saba</option>
+	<option value="BA">Bosnia and Herzegovina</option>
+	<option value="BW">Botswana</option>
+	<option value="BV">Bouvet Island</option>
+	<option value="BR">Brazil</option>
+	<option value="IO">British Indian Ocean Territory</option>
+	<option value="BN">Brunei Darussalam</option>
+	<option value="BG">Bulgaria</option>
+	<option value="BF">Burkina Faso</option>
+	<option value="BI">Burundi</option>
+	<option value="KH">Cambodia</option>
+	<option value="CM">Cameroon</option>
+	<option value="CA">Canada</option>
+	<option value="CV">Cape Verde</option>
+	<option value="KY">Cayman Islands</option>
+	<option value="CF">Central African Republic</option>
+	<option value="TD">Chad</option>
+	<option value="CL">Chile</option>
+	<option value="CN">China</option>
+	<option value="CX">Christmas Island</option>
+	<option value="CC">Cocos (Keeling) Islands</option>
+	<option value="CO">Colombia</option>
+	<option value="KM">Comoros</option>
+	<option value="CG">Congo</option>
+	<option value="CD">Congo, the Democratic Republic of the</option>
+	<option value="CK">Cook Islands</option>
+	<option value="CR">Costa Rica</option>
+	<option value="CI">Côte d'Ivoire</option>
+	<option value="HR">Croatia</option>
+	<option value="CU">Cuba</option>
+	<option value="CW">Curaçao</option>
+	<option value="CY">Cyprus</option>
+	<option value="CZ">Czech Republic</option>
+	<option value="DK">Denmark</option>
+	<option value="DJ">Djibouti</option>
+	<option value="DM">Dominica</option>
+	<option value="DO">Dominican Republic</option>
+	<option value="EC">Ecuador</option>
+	<option value="EG">Egypt</option>
+	<option value="SV">El Salvador</option>
+	<option value="GQ">Equatorial Guinea</option>
+	<option value="ER">Eritrea</option>
+	<option value="EE">Estonia</option>
+	<option value="ET">Ethiopia</option>
+	<option value="FK">Falkland Islands (Malvinas)</option>
+	<option value="FO">Faroe Islands</option>
+	<option value="FJ">Fiji</option>
+	<option value="FI">Finland</option>
+	<option value="FR">France</option>
+	<option value="GF">French Guiana</option>
+	<option value="PF">French Polynesia</option>
+	<option value="TF">French Southern Territories</option>
+	<option value="GA">Gabon</option>
+	<option value="GM">Gambia</option>
+	<option value="GE">Georgia</option>
+	<option value="DE">Germany</option>
+	<option value="GH">Ghana</option>
+	<option value="GI">Gibraltar</option>
+	<option value="GR">Greece</option>
+	<option value="GL">Greenland</option>
+	<option value="GD">Grenada</option>
+	<option value="GP">Guadeloupe</option>
+	<option value="GU">Guam</option>
+	<option value="GT">Guatemala</option>
+	<option value="GG">Guernsey</option>
+	<option value="GN">Guinea</option>
+	<option value="GW">Guinea-Bissau</option>
+	<option value="GY">Guyana</option>
+	<option value="HT">Haiti</option>
+	<option value="HM">Heard Island and McDonald Islands</option>
+	<option value="VA">Holy See (Vatican City State)</option>
+	<option value="HN">Honduras</option>
+	<option value="HK">Hong Kong</option>
+	<option value="HU">Hungary</option>
+	<option value="IS">Iceland</option>
+	<option value="IN">India</option>
+	<option value="ID">Indonesia</option>
+	<option value="IR">Iran, Islamic Republic of</option>
+	<option value="IQ">Iraq</option>
+	<option value="IE">Ireland</option>
+	<option value="IM">Isle of Man</option>
+	<option value="IL">Israel</option>
+	<option value="IT">Italy</option>
+	<option value="JM">Jamaica</option>
+	<option value="JP">Japan</option>
+	<option value="JE">Jersey</option>
+	<option value="JO">Jordan</option>
+	<option value="KZ">Kazakhstan</option>
+	<option value="KE">Kenya</option>
+	<option value="KI">Kiribati</option>
+	<option value="KP">Korea, Democratic People's Republic of</option>
+	<option value="KR">Korea, Republic of</option>
+	<option value="KW">Kuwait</option>
+	<option value="KG">Kyrgyzstan</option>
+	<option value="LA">Lao People's Democratic Republic</option>
+	<option value="LV">Latvia</option>
+	<option value="LB">Lebanon</option>
+	<option value="LS">Lesotho</option>
+	<option value="LR">Liberia</option>
+	<option value="LY">Libya</option>
+	<option value="LI">Liechtenstein</option>
+	<option value="LT">Lithuania</option>
+	<option value="LU">Luxembourg</option>
+	<option value="MO">Macao</option>
+	<option value="MK">Macedonia, the former Yugoslav Republic of</option>
+	<option value="MG">Madagascar</option>
+	<option value="MW">Malawi</option>
+	<option value="MY">Malaysia</option>
+	<option value="MV">Maldives</option>
+	<option value="ML">Mali</option>
+	<option value="MT">Malta</option>
+	<option value="MH">Marshall Islands</option>
+	<option value="MQ">Martinique</option>
+	<option value="MR">Mauritania</option>
+	<option value="MU">Mauritius</option>
+	<option value="YT">Mayotte</option>
+	<option value="MX">Mexico</option>
+	<option value="FM">Micronesia, Federated States of</option>
+	<option value="MD">Moldova, Republic of</option>
+	<option value="MC">Monaco</option>
+	<option value="MN">Mongolia</option>
+	<option value="ME">Montenegro</option>
+	<option value="MS">Montserrat</option>
+	<option value="MA">Morocco</option>
+	<option value="MZ">Mozambique</option>
+	<option value="MM">Myanmar</option>
+	<option value="NA">Namibia</option>
+	<option value="NR">Nauru</option>
+	<option value="NP">Nepal</option>
+	<option value="NL">Netherlands</option>
+	<option value="NC">New Caledonia</option>
+	<option value="NZ">New Zealand</option>
+	<option value="NI">Nicaragua</option>
+	<option value="NE">Niger</option>
+	<option value="NG">Nigeria</option>
+	<option value="NU">Niue</option>
+	<option value="NF">Norfolk Island</option>
+	<option value="MP">Northern Mariana Islands</option>
+	<option value="NO">Norway</option>
+	<option value="OM">Oman</option>
+	<option value="PK">Pakistan</option>
+	<option value="PW">Palau</option>
+	<option value="PS">Palestinian Territory, Occupied</option>
+	<option value="PA">Panama</option>
+	<option value="PG">Papua New Guinea</option>
+	<option value="PY">Paraguay</option>
+	<option value="PE">Peru</option>
+	<option value="PH">Philippines</option>
+	<option value="PN">Pitcairn</option>
+	<option value="PL">Poland</option>
+	<option value="PT">Portugal</option>
+	<option value="PR">Puerto Rico</option>
+	<option value="QA">Qatar</option>
+	<option value="RE">Réunion</option>
+	<option value="RO">Romania</option>
+	<option value="RU">Russian Federation</option>
+	<option value="RW">Rwanda</option>
+	<option value="BL">Saint Barthélemy</option>
+	<option value="SH">Saint Helena, Ascension and Tristan da Cunha</option>
+	<option value="KN">Saint Kitts and Nevis</option>
+	<option value="LC">Saint Lucia</option>
+	<option value="MF">Saint Martin (French part)</option>
+	<option value="PM">Saint Pierre and Miquelon</option>
+	<option value="VC">Saint Vincent and the Grenadines</option>
+	<option value="WS">Samoa</option>
+	<option value="SM">San Marino</option>
+	<option value="ST">Sao Tome and Principe</option>
+	<option value="SA">Saudi Arabia</option>
+	<option value="SN">Senegal</option>
+	<option value="RS">Serbia</option>
+	<option value="SC">Seychelles</option>
+	<option value="SL">Sierra Leone</option>
+	<option value="SG">Singapore</option>
+	<option value="SX">Sint Maarten (Dutch part)</option>
+	<option value="SK">Slovakia</option>
+	<option value="SI">Slovenia</option>
+	<option value="SB">Solomon Islands</option>
+	<option value="SO">Somalia</option>
+	<option value="ZA">South Africa</option>
+	<option value="GS">South Georgia and the South Sandwich Islands</option>
+	<option value="SS">South Sudan</option>
+	<option value="ES">Spain</option>
+	<option value="LK">Sri Lanka</option>
+	<option value="SD">Sudan</option>
+	<option value="SR">Suriname</option>
+	<option value="SJ">Svalbard and Jan Mayen</option>
+	<option value="SZ">Swaziland</option>
+	<option value="SE">Sweden</option>
+	<option value="CH">Switzerland</option>
+	<option value="SY">Syrian Arab Republic</option>
+	<option value="TW">Taiwan, Province of China</option>
+	<option value="TJ">Tajikistan</option>
+	<option value="TZ">Tanzania, United Republic of</option>
+	<option value="TH">Thailand</option>
+	<option value="TL">Timor-Leste</option>
+	<option value="TG">Togo</option>
+	<option value="TK">Tokelau</option>
+	<option value="TO">Tonga</option>
+	<option value="TT">Trinidad and Tobago</option>
+	<option value="TN">Tunisia</option>
+	<option value="TR">Turkey</option>
+	<option value="TM">Turkmenistan</option>
+	<option value="TC">Turks and Caicos Islands</option>
+	<option value="TV">Tuvalu</option>
+	<option value="UG">Uganda</option>
+	<option value="UA">Ukraine</option>
+	<option value="AE">United Arab Emirates</option>
+	<option value="GB">United Kingdom</option>
+	<option value="US">United States</option>
+	<option value="UM">United States Minor Outlying Islands</option>
+	<option value="UY">Uruguay</option>
+	<option value="UZ">Uzbekistan</option>
+	<option value="VU">Vanuatu</option>
+	<option value="VE">Venezuela, Bolivarian Republic of</option>
+	<option value="VN">Viet Nam</option>
+	<option value="VG">Virgin Islands, British</option>
+	<option value="VI">Virgin Islands, U.S.</option>
+	<option value="WF">Wallis and Futuna</option>
+	<option value="EH">Western Sahara</option>
+	<option value="YE">Yemen</option>
+	<option value="ZM">Zambia</option>
+	<option value="ZW">Zimbabwe</option>
+</select>
+						<div class="dropDownSelect2"></div>
+					</div>
+				</div>
+
+
+				<div class="wrap-input100 validate-input bg1" data-validate="Enter Your Email (e@a.x)">
+					<span class="label-input100">Email</span>
+					<input class="input100" type="text" name="email" id="email" placeholder="Enter Your Email ">
+				</div>
+
+				<!-- COUNTRY -->
+				<div class="wrap-input100 input100-select bg1 rs1-wrap-input100" data-validate="Choose a Country">
+				    
+					<span class="label-input100">Country of Residence</span>
+					<div>
+						<select class="js-select2" name="country" id="country" required>
+							<option disabled>Choose a Country</option>
+							<option>Afghanistan</option>
+							<option>Albania</option>
+							<option>Algeria</option>
+							<option>American Samoa</option>
+							<option>Andorra</option>
+							<option>Angola</option>
+							<option>Antigua and Barbuda</option>
+							<option>Argentina</option>
+							<option>Armenia</option>
+							<option>Australia</option>
+							<option>Austria</option>
+							<option>Bahamas</option>
+							<option>Bahrain</option>
+							<option>Bangladesh</option>
+							<option>Barbados</option>
+							<option>Belarus</option>
+							<option>Belgium</option>
+							<option>Belize</option>
+							<option>Benin</option>
+							<option>Bermuda</option>
+							<option>Bhutan</option>
+							<option>Bolivia</option>
+							<option>Bosnia and Herzegovina</option>
+							<option>Botswana</option>
+							<option>Brazil</option>
+							<option>Brunei</option>
+							<option>Bulgaria</option>
+							<option>Burkina Faso</option>
+							<option>Burundi</option>
+							<option>Cambodia</option>
+							<option>Cameroon</option>
+							<option>Canada</option>
+							<option>Cape Verde</option>
+							<option>Central African Republic</option>
+							<option>Chad</option>
+							<option>Chile</option>
+							<option>China</option>
+							<option>Colombia</option>
+							<option>Comoros</option>
+							<option>Congo, Democratic Republic of the</option>
+							<option>Congo, Republic of the</option>
+							<option>Costa Rica</option>
+							<option>C&ocirc;te d'Ivoire</option>
+							<option>Croatia</option>
+							<option>Cuba</option>
+							<option>Cyprus</option>
+							<option>Czech Republic</option>
+							<option>Denmark</option>
+							<option>Djibouti</option>
+							<option>Dominica</option>
+							<option>Dominican Republic</option>
+							<option>East Timor</option>
+							<option>Ecuador</option>
+							<option>Egypt</option>
+							<option>El Salvador</option>
+							<option>Equatorial Guinea</option>
+							<option>Eritrea</option>
+							<option>Estonia</option>
+							<option>Ethiopia</option>
+							<option>Fiji</option>
+							<option>Finland</option>
+							<option>France</option>
+							<option>Gabon</option>
+							<option>Gambia</option>
+							<option>Georgia</option>
+							<option>Germany</option>
+							<option>Ghana</option>
+							<option>Greece</option>
+							<option>Greenland</option>
+							<option>Grenada</option>
+							<option>Guam</option>
+							<option>Guatemala</option>
+							<option>Guinea</option>
+							<option>Guinea-Bissau</option>
+							<option>Guyana</option>
+							<option>Haiti</option>
+							<option>Honduras</option>
+							<option>Hong Kong</option>
+							<option>Hungary</option>
+							<option>Iceland</option>
+							<option>India</option>
+							<option>Indonesia</option>
+							<option>Iran</option>
+							<option>Iraq</option>
+							<option>Ireland</option>
+							<option>Israel</option>
+							<option>Italy</option>
+							<option>Jamaica</option>
+							<option>Japan</option>
+							<option>Jordan</option>
+							<option>Kazakhstan</option>
+							<option>Kenya</option>
+							<option>Kiribati</option>
+							<option>North Korea</option>
+							<option>South Korea</option>
+							<option>Kuwait</option>
+							<option>Kyrgyzstan</option>
+							<option>Laos</option>
+							<option>Latvia</option>
+							<option>Lebanon</option>
+							<option>Lesotho</option>
+							<option>Liberia</option>
+							<option>Libya</option>
+							<option>Liechtenstein</option>
+							<option>Lithuania</option>
+							<option>Luxembourg</option>
+							<option>Macedonia</option>
+							<option>Madagascar</option>
+							<option>Malawi</option>
+							<option>Malaysia</option>
+							<option>Maldives</option>
+							<option>Mali</option>
+							<option>Malta</option>
+							<option>Marshall Islands</option>
+							<option>Mauritania</option>
+							<option>Mauritius</option>
+							<option>Mexico</option>
+							<option>Micronesia</option>
+							<option>Moldova</option>
+							<option>Monaco</option>
+							<option>Mongolia</option>
+							<option>Montenegro</option>
+							<option>Morocco</option>
+							<option>Mozambique</option>
+							<option>Myanmar</option>
+							<option>Namibia</option>
+							<option>Nauru</option>
+							<option>Nepal</option>
+							<option>Netherlands</option>
+							<option>New Zealand</option>
+							<option>Nicaragua</option>
+							<option>Niger</option>
+							<option>Nigeria</option>
+							<option>Norway</option>
+							<option>Northern Mariana Islands</option>
+							<option>Oman</option>
+							<option>Pakistan</option>
+							<option>Palau</option>
+							<option>Palestine</option>
+							<option>Panama</option>
+							<option>Papua New Guinea</option>
+							<option>Paraguay</option>
+							<option>Peru</option>
+							<option>Philippines</option>
+							<option>Poland</option>
+							<option>Portugal</option>
+							<option>Puerto Rico</option>
+							<option>Qatar</option>
+							<option>Romania</option>
+							<option>Russia</option>
+							<option>Rwanda</option>
+							<option>Saint Kitts and Nevis</option>
+							<option>Saint Lucia</option>
+							<option>Saint Vincent and the Grenadines</option>
+							<option>Samoa</option>
+							<option>San Marino</option>
+							<option>Sao Tome and Principe</option>
+							<option>Saudi Arabia</option>
+							<option>Senegal</option>
+							<option>Serbia and Montenegro</option>
+							<option>Seychelles</option>
+							<option>Sierra Leone</option>
+							<option>Singapore</option>
+							<option>Slovakia</option>
+							<option>Slovenia</option>
+							<option>Solomon Islands</option>
+							<option>Somalia</option>
+							<option>South Africa</option>
+							<option>Spain</option>
+							<option>Sri Lanka</option>
+							<option>Sudan</option>
+							<option>Sudan, South</option>
+							<option>Suriname</option>
+							<option>Swaziland</option>
+							<option>Sweden</option>
+							<option>Switzerland</option>
+							<option>Syria</option>
+							<option>Taiwan</option>
+							<option>Tajikistan</option>
+							<option>Tanzania</option>
+							<option>Thailand</option>
+							<option>Togo</option>
+							<option>Tonga</option>
+							<option>Trinidad and Tobago</option>
+							<option>Tunisia</option>
+							<option>Turkey</option>
+							<option>Turkmenistan</option>
+							<option>Tuvalu</option>
+							<option>Uganda</option>
+							<option>Ukraine</option>
+							<option>United Arab Emirates</option>
+							<option>United Kingdom</option>
+							<option>United States</option>
+							<option>Uruguay</option>
+							<option>Uzbekistan</option>
+							<option>Vanuatu</option>
+							<option>Vatican City</option>
+							<option>Venezuela</option>
+							<option>Vietnam</option>
+							<option>Virgin Islands, British</option>
+							<option>Virgin Islands, U.S.</option>
+							<option>Yemen</option>
+							<option>Zambia</option>
+							<option>Zimbabwe</option>
+						</select>
+						<div class="dropDownSelect2"></div>
+					</div>
+				</div>
+
+				<!-- PHONE NUMBER-->
+				<div class="wrap-input100 bg1 rs1-wrap-input100" data-validate="Missing">
+					<span class="label-input100">Phone</span>
+					<input class="input100" type="text" name="phone" id="phone" placeholder="(+971) 123456789" required>
+				</div>
+
+				<!-- GENDER -->
+				<div class="wrap-input100 bg1 rs1-wrap-input100" style="display: inline-flex;">
+
+
+					<div class="wrap-input100 bg1 rs1-wrap-input100" data-validate="Missing"
+						style="margin-right: 30px;">
+						<span class="label-input100">Age</span>
+						<input class="input100" type="number" name="age" id ="age" placeholder="0-100" min="12" max="65" size="2" required>
+					</div>
+
+					<div class="wrap-input100 bg1 rs1-wrap-input100">
+
+						<span class="label-input100">Gender</span>
+						<div class="contact100-form-radio">
+							<input class="input-radio100" id="male" type="radio" name="gender" value="Male"
+								checked="checked">
+							<label class="label-radio100" for="male">
+								Male
+							</label>
+						</div>
+
+						<div class="contact100-form-radio">
+							<input class="input-radio100" id="female" type="radio" name="gender" value="Female">
+							<label class="label-radio100" for="female">
+								Female
+							</label>
+						</div>
+
+					</div>
+
+
+				</div>
+
+
+				<!-- Language(s) -->
+
+				<div class="wrap-input100 input100-select bg1 rs1-wrap-input100">
+					<span class="label-input100">Language(s)</span>
+					<div>
+						<select class="js-select2" name="language[]" id="language" multiple required>
+							<option>Acholi</option>
+							<option>Afrikaans</option>
+							<option>Akan</option>
+							<option>Albanian</option>
+							<option>Amharic</option>
+							<option>Arabic</option>
+							<option>Ashante</option>
+							<option>Asl</option>
+							<option>Assyrian</option>
+							<option>Azerbaijani</option>
+							<option>Azeri</option>
+							<option>Bajuni</option>
+							<option>Basque</option>
+							<option>Behdini</option>
+							<option>Belorussian</option>
+							<option>Bengali</option>
+							<option>Berber</option>
+							<option>Bosnian</option>
+							<option>Bravanese</option>
+							<option>Bulgarian</option>
+							<option>Burmese</option>
+							<option>Cakchiquel</option>
+							<option>Cambodian</option>
+							<option>Cantonese</option>
+							<option>Catalan</option>
+							<option>Chaldean</option>
+							<option>Chamorro</option>
+							<option>Chao-chow</option>
+							<option>Chavacano</option>
+							<option>Chin</option>
+							<option>Chuukese</option>
+							<option>Cree</option>
+							<option>Croatian</option>
+							<option>Czech</option>
+							<option>Dakota</option>
+							<option>Danish</option>
+							<option>Dari</option>
+							<option>Dinka</option>
+							<option>Diula</option>
+							<option>Dutch</option>
+							<option>Edo</option>
+							<option>English</option>
+							<option>Estonian</option>
+							<option>Ewe</option>
+							<option>Fante</option>
+							<option>Farsi</option>
+							<option>Fijian Hindi</option>
+							<option>Finnish</option>
+							<option>Flemish</option>
+							<option>French</option>
+							<option>French Canadian</option>
+							<option>Fukienese</option>
+							<option>Fula</option>
+							<option>Fulani</option>
+							<option>Fuzhou</option>
+							<option>Ga</option>
+							<option>Gaddang</option>
+							<option>Gaelic</option>
+							<option>Gaelic-irish</option>
+							<option>Gaelic-scottish</option>
+							<option>Georgian</option>
+							<option>German</option>
+							<option>Gorani</option>
+							<option>Greek</option>
+							<option>Gujarati</option>
+							<option>Haitian Creole</option>
+							<option>Hakka</option>
+							<option>Hakka-chinese</option>
+							<option>Hausa</option>
+							<option>Hebrew</option>
+							<option>Hindi</option>
+							<option>Hmong</option>
+							<option>Hungarian</option>
+							<option>Ibanag</option>
+							<option>Ibo</option>
+							<option>Icelandic</option>
+							<option>Igbo</option>
+							<option>Ilocano</option>
+							<option>Indonesian</option>
+							<option>Inuktitut</option>
+							<option>Italian</option>
+							<option>Jakartanese</option>
+							<option>Japanese</option>
+							<option>Javanese</option>
+							<option>Kanjobal</option>
+							<option>Karen</option>
+							<option>Karenni</option>
+							<option>Kashmiri</option>
+							<option>Kazakh</option>
+							<option>Kikuyu</option>
+							<option>Kinyarwanda</option>
+							<option>Kirundi</option>
+							<option>Korean</option>
+							<option>Kosovan</option>
+							<option>Kotokoli</option>
+							<option>Krio</option>
+							<option>Kurdish</option>
+							<option>Kurmanji</option>
+							<option>Kyrgyz</option>
+							<option>Lakota</option>
+							<option>Laotian</option>
+							<option>Latvian</option>
+							<option>Lingala</option>
+							<option>Lithuanian</option>
+							<option>Luganda</option>
+							<option>Luo</option>
+							<option>Maay</option>
+							<option>Macedonian</option>
+							<option>Malay</option>
+							<option>Malayalam</option>
+							<option>Maltese</option>
+							<option>Mandarin</option>
+							<option>Mandingo</option>
+							<option>Mandinka</option>
+							<option>Marathi</option>
+							<option>Marshallese</option>
+							<option>Mien</option>
+							<option>Mina</option>
+							<option>Mirpuri</option>
+							<option>Mixteco</option>
+							<option>Moldavan</option>
+							<option>Mongolian</option>
+							<option>Montenegrin</option>
+							<option>Navajo</option>
+							<option>Neapolitan</option>
+							<option>Nepali</option>
+							<option>Nigerian Pidgin</option>
+							<option>Norwegian</option>
+							<option>Oromo</option>
+							<option>Pahari</option>
+							<option>Papago</option>
+							<option>Papiamento</option>
+							<option>Pashto</option>
+							<option>Patois</option>
+							<option>Pidgin English</option>
+							<option>Polish</option>
+							<option>Portug.creole</option>
+							<option>Portuguese</option>
+							<option>Pothwari</option>
+							<option>Pulaar</option>
+							<option>Punjabi</option>
+							<option>Putian</option>
+							<option>Quichua</option>
+							<option>Romanian</option>
+							<option>Russian</option>
+							<option>Samoan</option>
+							<option>Serbian</option>
+							<option>Shanghainese</option>
+							<option>Shona</option>
+							<option>Sichuan</option>
+							<option>Sicilian</option>
+							<option>Sinhalese</option>
+							<option>Slovak</option>
+							<option>Somali</option>
+							<option>Sorani</option>
+							<option>Spanish</option>
+							<option>Sudanese Arabic</option>
+							<option>Sundanese</option>
+							<option>Susu</option>
+							<option>Swahili</option>
+							<option>Swedish</option>
+							<option>Sylhetti</option>
+							<option>Tagalog</option>
+							<option>Taiwanese</option>
+							<option>Tajik</option>
+							<option>Tamil</option>
+							<option>Telugu</option>
+							<option>Thai</option>
+							<option>Tibetan</option>
+							<option>Tigre</option>
+							<option>Tigrinya</option>
+							<option>Toishanese</option>
+							<option>Tongan</option>
+							<option>Toucouleur</option>
+							<option>Trique</option>
+							<option>Tshiluba</option>
+							<option>Turkish</option>
+							<option>Twi</option>
+							<option>Ukrainian</option>
+							<option>Urdu</option>
+							<option>Uyghur</option>
+							<option>Uzbek</option>
+							<option>Vietnamese</option>
+							<option>Visayan</option>
+							<option>Welsh</option>
+							<option>Wolof</option>
+							<option>Yiddish</option>
+							<option>Yoruba</option>
+							<option>Yupik</option>
+						</select>
+						<div class="dropDownSelect2"></div>
+					</div>
+				</div>
+
+
+				<!-- Social Media -->
+				<div class="wrap-input100 bg1">
+					<span class="label-input100">Social Media</span>
+					<input class="input100" type="text" name="twitter" id="twitter" placeholder="Enter your @Twitter">
+					<input class="input100" type="text" name="facebook" id="facebook" placeholder="Enter your @Facebook">
+					<input class="input100" type="text" name="instagram" id="instagram" placeholder="Enter your @Instagram">
+					<input class="input100" type="text" name="twitch" id="twitch" placeholder="Enter your /Twitch">
+				</div>
+
+
+				<!-- Game(s) You Play -->
+				<div class="wrap-input100 validate-input bg1 rs1-wrap-input100"
+					data-validate="Type what games you play!">
+					<span class="label-input100">Game(s) You Play</span>
+					<input class="input100" type="text" name="games" id="games" placeholder="Fortnite, LoL, Overwatch.."
+						data-validate="Type what games you play!" required>
+				</div>
+
+
+				<!-- Gaming Platform -->
+				<div class="wrap-input100 input100-select bg1 rs1-wrap-input100" style="height: 100px;">
+					<span class="label-input100">Gaming Platform</span>
+					<div>
+						<select class="js-select2" name="platform" id="platform" required>
+							<option disabled>Choose a Platform</option>
+							<option>PC</option>
+							<option>PS4</option>
+							<option>Xbox</option>
+							<option>Mobile</option>
+
+						</select>
+						<div class="dropDownSelect2"></div>
+					</div>
+				</div>
+
+
+				<!-- Applying As -->
+				<div class="wrap-input100 bg1" style="width: 100%; display: block;">
+					<span class="label-input100">Applying As</span>
+
+					<div class="wrap-input100 bg1"
+						style="width: 100%; display: block; border-style: none; background: transparent;">
+
+						<div class="contact100-form-radio" style="display: inline-flex; margin-right: 20px;">
+							<input class=" input-radio100" id="player" type="radio" name="position" value="Player"
+								checked="checked">
+							<label class="label-radio100" for="player">
+								Player
+							</label>
+						</div>
+
+						<div class="contact100-form-radio" style="display: inline-flex;margin-right: 20px;">
+							<input class="input-radio100" id="streamer" type="radio" name="position" value="Streamer">
+							<label class="label-radio100" for="streamer">
+								Streamer
+							</label>
+						</div>
+
+						<div class="contact100-form-radio" style="display: inline-flex;margin-right: 27px;">
+							<input class="input-radio100" id="team" type="radio" name="position" value="Team">
+							<label class="label-radio100" for="team">
+								Team
+							</label>
+						</div>
+
+						<div class="contact100-form-radio" style="display: inline-flex;margin-right: 20px;">
+							<input class="input-radio100" id="coach" type="radio" name="position" value="Coach">
+							<label class="label-radio100" for="coach">
+								Coach
+							</label>
+						</div>
+
+						<div class="contact100-form-radio" style="display: inline-flex;margin-right: 20px;">
+							<input class="input-radio100" id="staff" type="radio" name="position" value="Staff">
+							<label class="label-radio100" for="staff">
+								Management/Staff
+							</label>
+						</div>
+					</div>
+				</div>
+
+				<!-- Accomplishments -->
+				<div class="wrap-input100 validate-input bg0 rs1-alert-validate"
+					data-validate="Please Type Your Accomplishments">
+					<span class="label-input100">Accomplishments</span>
+					<textarea class="input100" name="accomplishments" id="accomplishments"
+						placeholder="What tournaments have you won? Attended? Please provide links." required></textarea>
+				</div>
+
+				<!-- Tell Us Who You Are -->
+				<div class="wrap-input100 validate-input bg0 rs1-alert-validate" data-validate="We need to know more!">
+					<span class="label-input100">Tell Us Who You Are</span>
+					<textarea class="input100" name="who" id="who" placeholder="Who are you? Tell us more!" required></textarea>
+				</div>
+
+				<!-- Why YaLLa Esports? -->
+
+				<div class="wrap-input100 validate-input bg0 rs1-alert-validate" data-validate="Fill this field please">
+					<span class="label-input100">Why do you want to join YaLLa Esports?</span>
+					<textarea class="input100" name="join" id="join" placeholder="E.g: I love YaLLa Esports" required></textarea>
+				</div>
+
+
+				<!-- What are  your goals? -->
+				<div class="wrap-input100 validate-input bg0 rs1-alert-validate"
+					data-validate="Tell us what your goals are..">
+					<span class="label-input100">What are your goals?</span>
+					<textarea class="input100" name="goals" id="goals" placeholder="What are your goals?" required></textarea>
+				</div>
+
+				<!-- What do you expect from YaLLa Esports? -->
+
+				<div class="wrap-input100 validate-input bg0 rs1-alert-validate" data-validate="We need to know why!">
+					<span class="label-input100">How can YaLLa Esports support you to reach your goals?</span>
+					<textarea class="input100" name="support" id="support" placeholder="How can we help you?" required></textarea>
+				</div>
+
+
+				<div class="container-contact100-form-btn">
+					<button class="contact100-form-btn" type="submit" name="submit">
+						<span>
+							Submit
+							<i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
+						</span>
+					</button>
+				</div>
+			</form>
+			<!-- -->
+		</div>
+	</div>
+
+
+
+
+
+	<!--===============================================================================================-->
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+	<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+	<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+	<script>
+		$(".js-select2").each(function () {
+			$(this).select2({
+				minimumResultsForSearch: 20,
+				dropdownParent: $(this).next('.dropDownSelect2')
+			});
+
+
+			$(".js-select2").each(function () {
+				$(this).on('select2:close', function (e) {
+					if ($(this).val() == "Please chooses") {
+						$('.js-show-service').slideUp();
+					} else {
+						$('.js-show-service').slideUp();
+						$('.js-show-service').slideDown();
+					}
+				});
+			});
+		})
+	</script>
+	<!--===============================================================================================-->
+	<script src="vendor/daterangepicker/moment.min.js"></script>
+	<script src="vendor/daterangepicker/daterangepicker.js"></script>
+	<!--===============================================================================================-->
+	<script src="vendor/countdowntime/countdowntime.js"></script>
+	<!--===============================================================================================-->
+	<script src="vendor/noui/nouislider.min.js"></script>
+	<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.2.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.2.4/firebase-database.js"></script>
+    <script src="js/apply.js"></script>
+
+
+</body>
+
+</html>

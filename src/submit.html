@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>YaLLa Application Form</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--===============================================================================================-->
+    <link rel="icon" type="image/png" href="images/icons/Icon.png" />
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="fonts/iconic/css/material-design-iconic-font.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/noui/nouislider.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="css/util.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <!--===============================================================================================-->
+</head>
+
+
+<body>
+
+
+    <div class="container-contact100">
+        <div class="wrap-contact100">
+            <span class="contact100-form-title" style="color: #05071d;">
+                Application submitted
+            </span>
+
+            <div class="card-img" style="text-align: center;">
+                <img src=" images/submitted.png">
+                <span class="contact100-form-title"
+                    style="position: relative; bottom: 70px; font-size: 24px; color: #05071d;">
+                    Keep in touch while we review your application
+                </span>
+            </div>
+
+
+            <div class="socials m-auto">
+                <a href="https://twitter.com/YaLLaEsports" target="_blank"><img id="t"
+                        src="images/icons/twitter.png"></a>
+                <a href="https://www.facebook.com/YallaEsports" target="_blank"><img id="f"
+                        src="images/icons/facebook.png"></a>
+                <a href="https://www.instagram.com/yallaesports/" target="_blank"><img id="i"
+                        src="images/icons/instagram.png"></a>
+            </div>
+            <div class="website">
+                <span class="contact100-form-btn" onclick="window.location.href='https://www.yallaesports.com'"
+                    style="cursor: pointer; width: 200px; text-align: center; margin: auto;">
+                    www.yallaesports.com
+                </span>
+            </div>
+        </div>
+    </div>
+
+
+    <!--===============================================================================================-->
+    <script src=" vendor/jquery/jquery-3.2.1.min.js"> </script>
+    <!--===============================================================================================-->
+    <script src="vendor/bootstrap/js/popper.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="vendor/select2/select2.min.js"></script>
+    <script>
+        $(".js-select2").each(function () {
+            $(this).select2({
+                minimumResultsForSearch: 20,
+                dropdownParent: $(this).next('.dropDownSelect2')
+            });
+
+
+            $(".js-select2").each(function () {
+                $(this).on('select2:close', function (e) {
+                    if ($(this).val() == "Please chooses") {
+                        $('.js-show-service').slideUp();
+                    } else {
+                        $('.js-show-service').slideUp();
+                        $('.js-show-service').slideDown();
+                    }
+                });
+            });
+        })
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            var twitter = document.getElementById('t');
+            var facebook = document.getElementById('f');
+            var instagram = document.getElementById('i');
+
+            $('#t').on('mouseenter', function () {
+                twitter.setAttribute('src', 'images/icons/twitter_hover.png');
+            }).on('mouseleave', function () {
+                twitter.setAttribute('src', 'images/icons/twitter.png');
+
+            });
+
+            $('#f').on('mouseenter', function () {
+                facebook.setAttribute('src', 'images/icons/facebook_hover.png');
+            }).on('mouseleave', function () {
+                facebook.setAttribute('src', 'images/icons/facebook.png');
+            });
+
+            $('#i').on('mouseenter', function () {
+                instagram.setAttribute('src', 'images/icons/instagram_hover.png');
+            }).on('mouseleave', function () {
+                instagram.setAttribute('src', 'images/icons/instagram.png');
+            });
+        });
+    </script>
+    <!--===============================================================================================-->
+    <script src="vendor/daterangepicker/moment.min.js"></script>
+    <script src="vendor/daterangepicker/daterangepicker.js"></script>
+    <!--===============================================================================================-->
+    <script src="vendor/countdowntime/countdowntime.js"></script>
+    <!--===============================================================================================-->
+    <script src="vendor/noui/nouislider.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="js/main.js"></script>
+
+
+</body>
+
+</html>
